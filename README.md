@@ -5,12 +5,18 @@ javascript插件，个支持同时横向、纵向滚动的广告插件，只要�
 调用代码：
 
 //初始化滚动
+
 new Scroll({
 	element : "#" + target,
+	
 	direction : 'horizontal',
+	
 	width : 1128,
+	
 	scrollNum : 3,
+	
 	speed : 30
+	
 }).scrollHorizontal();
 
 用到的属性：
